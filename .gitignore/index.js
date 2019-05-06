@@ -405,3 +405,28 @@ function random2(min, max) {
 }
     
 });
+
+    if (message.content === "Bonjour SolarBot !"){
+        message.reply("Bonjour")
+    }
+    if (message.content === "Bonjour SolarBot!"){
+        message.reply("Bonjour")
+    }    
+    if (message.content === "Bonjour SolarBot"){
+        message.reply("Bonjour")
+    }     
+    if (message.content === "Bonjour solarbot !"){
+        message.reply("Bonjour")
+    }     
+    if (message.content === "bonjour solarbot !"){
+        message.reply("Bonjour")
+    }     
+    if (message.content === "bonjour SolarBot"){
+        message.reply("Bonjour")
+    }     
+    if (message.content === "bonjour SolarBot!"){
+        message.reply("Bonjour")
+    }     
+    if (message.content === "bonjour solarbot!"){
+        message.reply("Bonjour")
+    }     
