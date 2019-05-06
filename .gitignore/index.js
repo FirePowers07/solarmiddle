@@ -370,5 +370,38 @@ function random(min, max) {
     if (message.content === "Solarbot tu m’aime bien ?"){
         message.reply("Ouep ! Car tu m'utilise mais c'est de l'amitié ! HEIN !")
     }
-
+        if (message.content === "Quoi comme chose ?"){
+        random2();
+        if (randnum == 1){
+            message.reply("Bon d'acord ! J'avoue je fait rien !")
+        }
+        if (randnum == 2){
+            message.reply("Bon d'acord ! J'avoue, je couche avec ta mère")
+        }
+    }
+            if (message.content === "Quoi comme chose?"){
+        random2();
+        if (randnum == 1){
+            message.reply("Bon d'acord ! J'avoue je fait rien !")
+        }
+        if (randnum == 2){
+            message.reply("Bon d'acord ! J'avoue, je couche avec ta mère")
+        }
+    }
+            if (message.content === "Quoi comme chose"){
+        random2();
+        if (randnum == 1){
+            message.reply("Bon d'acord ! J'avoue je fait rien !")
+        }
+        if (randnum == 2){
+            message.reply("Bon d'acord ! J'avoue, je couche avec ta mère")
+        }
+    }
+   
+function random2(min, max) {
+    min = Math.ceil(1);
+    max = Math.floor(3);
+    randnum = Math.floor(Math.random() * (max - min +1) + min)
+}
+    
 });
